@@ -17,7 +17,7 @@ html {
     flex-wrap: wrap;
 }
 .top-info {
-    color:#808080;
+    color: #808080;
     margin-bottom: 40px;
     font-size: 14px;
 }
@@ -34,9 +34,9 @@ html {
 header .top-info {
     width: 100%;
     text-align: right;
-    margin-right: 40px;
     margin-top: 5px;
 }
+
 header nav {
     margin-left: 80px;
     
@@ -59,8 +59,31 @@ header .right-nav ul li {
     display: inline-block;
     padding-right: 40px;
 }
+
+header .right-nav ul li:last-child {
+    padding-right: 0;
+}
+
 header .right-nav ul li a {
     text-decoration: none;
     color: #007CE6;
-    font-size: 3em;
+}
+.virus {
+    background: #007CE6;
+    margin-top: 20px;
+}
+
+.covid_text {
+    padding: 5px 0;
+    color: #ffffff;
+}
+
+.covid_button a {
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 6px 30px;
+    display: inline-block;
+    margin: 7px 0;
+
 }
