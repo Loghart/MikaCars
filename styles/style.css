@@ -5,9 +5,11 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
 html {
     font-size: 16px;
 }
+
 .container {
     width: 1150px;
     margin: 0 auto;
@@ -17,21 +19,26 @@ html {
     flex-wrap: wrap;
     position: relative;
 }
+
 .top-info {
     color: #808080;
     margin-bottom: 40px;
     font-size: 14px;
 }
+
 .top-info a {
     text-decoration: none;
 }
+
 .logo{
     padding-right: 80px;
 }
+
 .main_nav {
     display: flex;
     align-items: center;
 }
+
 header .top-info {
     width: 100%;
     text-align: right;
@@ -42,20 +49,25 @@ header nav {
     margin-left: 80px;
     
 }
+
 header nav ul {
     list-style-type: none;
 }
+
 header nav ul li {
     display: inline-block;
     padding-right: 40px;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: #007CE6;
 }
+
 header .right-nav ul {
     list-style-type: none;
 }
+
 header .right-nav ul li {
     display: inline-block;
     padding-right: 40px;
@@ -69,6 +81,7 @@ header .right-nav ul li a {
     text-decoration: none;
     color: #007CE6;
 }
+
 .virus {
     background: #007CE6;
     margin-top: 20px;
@@ -109,6 +122,7 @@ header .right-nav ul li a {
     padding: 50px 100px 350px 70px;
 
 }
+
 .hero_text {
     transform: rotate(-20deg);
 }
@@ -117,6 +131,7 @@ header .right-nav ul li a {
     color: #ffffff;
     font-size: 40px;
 }
+
 .hero_text h1 span {
     display: block;
 }
@@ -126,6 +141,7 @@ header .right-nav ul li a {
     color: #ffffff;
     padding: 30px 0;
 }
+
 .hero_text a {
     text-decoration: none;
     font-size: 22px;
