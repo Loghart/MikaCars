@@ -183,9 +183,22 @@ header .right-nav ul li a {
 }
 @media screen and (max-width: 992px) {
     
+    svg {
+        width: 140px;
+    }
+    
+    .top-info {
+        margin-bottom: 15px;
+    }
+
+    .hamburger p {
+        color: #007CE6;
+    }
+    
     .hidden-mobile {
         display: none;
     }
+
     .container {
         width: 100%;
         padding: 0 20px;
@@ -219,20 +232,24 @@ header .right-nav ul li a {
         padding: 0;
         text-align: center;
     }
+
     header nav ul li {
         display: block;
         padding-right: 0;
         margin: 20px 0;
         
     }
+
     header nav ul li a {
         color: #ffffff;
     }
+
     .main_nav {
         width: 100%;
         justify-content: space-between;
         margin-right: 0;
     }
+
     .right-nav {
         display: none;
     }
@@ -243,14 +260,32 @@ header .right-nav ul li a {
     
 }
 @media screen and (min-width: 450px) and (max-width: 768px) {
+    .hamburger p {
+        font-size: 14px;
+    }
+    
     header nav {
         width: calc(50% + 40px);
+    }
+
+    svg {
+        width: 125px;
     }
    
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
     header nav {
         width: calc(30% + 40px);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    svg {
+        width: 110px;
+    }
+    
+    .hamburger p {
+        font-size: 12px;
     }
 }
 
