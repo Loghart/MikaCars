@@ -317,7 +317,7 @@ header .right-nav ul li a {
 
 @media screen and (max-width: 450px) {
     svg {
-        width: 110px;
+        width: 125px;
         fill: #007CE6;
     }
     
