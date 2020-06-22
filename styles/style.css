@@ -262,14 +262,29 @@ header .right-nav ul li a {
 @media screen and (min-width: 450px) and (max-width: 768px) {
     .hamburger svg {
         width: 25px;
+        display: none;
+    }
+
+    .hamburger svg.active {
+        display: block;
     }
     
+    .hamburger_menu {
+        display: block;
+        color: #007CE6;
+    }
+
+    .hamburger_menu.active {
+        display: none;
+    }
+
     header nav {
         width: calc(50% + 40px);
     }
 
-    svg {
+    .hamburger_close {
         width: 125px;
+        fill: #007CE6;
     }
    
 }
@@ -277,15 +292,50 @@ header .right-nav ul li a {
     header nav {
         width: calc(30% + 40px);
     }
+
+    .hamburger_close {
+        fill: #007CE6;
+    }
+
+    .hamburger_close  {
+        display: none;
+    }
+
+    .hamburger svg.active {
+        display: block;
+    }
+
+    .hamburger_menu {
+        display: block;
+        color: #007CE6;
+    }
+
+    .hamburger_menu.active {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 450px) {
     svg {
         width: 110px;
+        fill: #007CE6;
     }
     
     .hamburger svg {
         width: 20px;
+        display: none;
+    }
+    .hamburger svg.active {
+        display: block;
+    }
+
+    .hamburger_menu {
+        display: block;
+        color: #007CE6;
+    }
+
+    .hamburger_menu.active {
+        display: none;
     }
 }
 
