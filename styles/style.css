@@ -191,8 +191,8 @@ header .right-nav ul li a {
         margin-bottom: 15px;
     }
 
-    .hamburger p {
-        color: #007CE6;
+    .hamburger svg {
+        width: 30px;
     }
     
     .hidden-mobile {
@@ -260,8 +260,8 @@ header .right-nav ul li a {
     
 }
 @media screen and (min-width: 450px) and (max-width: 768px) {
-    .hamburger p {
-        font-size: 14px;
+    .hamburger svg {
+        width: 25px;
     }
     
     header nav {
@@ -284,8 +284,8 @@ header .right-nav ul li a {
         width: 110px;
     }
     
-    .hamburger p {
-        font-size: 12px;
+    .hamburger svg {
+        width: 20px;
     }
 }
 
