@@ -11,9 +11,14 @@ body {
     height: 2000px;
 }
 
+:root {
+    --primary: #007CE6
+}
+
 html {
     font-size: 16px;
     overflow-x: hidden !important;
+    
 }
 
 .container {
@@ -76,7 +81,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #007CE6;
+    color: var(--primary)
 }
 
 header .right-nav ul {
@@ -94,11 +99,11 @@ header .right-nav ul li:last-child {
 
 header .right-nav ul li a {
     text-decoration: none;
-    color: #007CE6;
+    color: var(--primary)
 }
 
 .virus {
-    background: #007CE6;
+    background: var(--primary);
     margin-top: 20px;
 }
 
@@ -331,7 +336,7 @@ header .right-nav ul li a {
 
     .hamburger_menu {
         display: block;
-        color: #007CE6;
+        color: var(--primary)
     }
 
     .hamburger_menu.active {

@@ -1,0 +1,22 @@
+{
+  "name": "mika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node_modules/.bin/node-sass -w assets/scss/main.scss assets/style.min.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loghart/MikaCars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Loghart/MikaCars/issues"
+  },
+  "homepage": "https://github.com/Loghart/MikaCars#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
