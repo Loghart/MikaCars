@@ -5,45 +5,44 @@
   img {
     width: 100%;
     display: block;
+  }
+  &_rectangle {
+    background: $primary;
+    border-radius: 90px;
+    position: absolute;
+    bottom: -310px;
+    transform: rotate(20deg);
+    left: 0;
+    padding: 50px 100px 350px 70px;
 
-    &.hero_rectangle {
-      background: $primary;
-      border-radius: 90px;
-      position: absolute;
-      bottom: -310px;
-      transform: rotate(20deg);
-      left: 0;
-      padding: 50px 100px 350px 70px;
+    .hero_text {
+      transform: rotate(-20deg);
 
-      .hero_text {
-        transform: rotate(-20deg);
+      h1 {
+        color: #ffffff;
+        font-size: 40px;
 
-        h1 {
-          color: #ffffff;
-          font-size: 40px;
-
-          span {
-            display: block;
-          }
-        }
-
-        h2 {
-          font-size: 20px;
-          color: #ffffff;
-          padding: 30px 0;
-        }
-
-        a {
-          text-decoration: none;
-          font-size: 22px;
-          color: $primary;
-          border: 1px solid transparent;
-          background: #ffffff;
-          padding: 10px 10px;
-          border-radius: 10px;
+        span {
           display: block;
-          text-align: center;
         }
+      }
+
+      h2 {
+        font-size: 20px;
+        color: #ffffff;
+        padding: 30px 0;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 22px;
+        color: $primary;
+        border: 1px solid transparent;
+        background: #ffffff;
+        padding: 10px 10px;
+        border-radius: 10px;
+        display: block;
+        text-align: center;
       }
     }
   }
