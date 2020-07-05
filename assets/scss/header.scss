@@ -1,13 +1,3 @@
-.top-info {
-  color: #808080;
-  margin-bottom: 40px;
-  font-size: 14px;
-
-  a {
-    text-decoration: none;
-  }
-}
-
 .main_nav {
   display: flex;
   align-items: center;
@@ -22,6 +12,13 @@ header {
       width: 100%;
       text-align: right;
       margin-top: 5px;
+      color: #808080;
+      margin-bottom: 40px;
+      font-size: 14px;
+
+      a {
+        text-decoration: none;
+      }
 
       nav {
         margin-left: 80px;
