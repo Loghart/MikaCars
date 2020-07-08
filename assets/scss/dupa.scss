@@ -1,4 +1,49 @@
-.dupa {
-  color: $primary;
-  margin: 0;
+.button_boxes {
+  width: 100%;
+}
+.boxes {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .lead {
+    color: $primary;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 100%;
+  }
+  .box {
+    width: calc(33.3% - 100px);
+    background: $primary;
+    padding: 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .car_image {
+      fill: white;
+
+      &.small {
+        width: 80px;
+      }
+
+      &.medium {
+        width: 125px;
+      }
+
+      &.large {
+        width: 190px;
+      }
+    }
+
+    .buttons {
+      display: inline;
+    }
+  }
 }
